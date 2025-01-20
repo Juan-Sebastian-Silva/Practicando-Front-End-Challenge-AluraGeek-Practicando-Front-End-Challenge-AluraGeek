@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Miyabi",
+      "price": 1000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-9O5smFQx0OAboH04pvHfQGwOv_WDS9j8LQ&s"
+    },
+    {
+      "id": "2",
+      "name": "Acheron",
+      "price": 2000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7-MGHsmIdJ1Xkt6GJtGP8FoOuO3V5uC4GuQ&s"
+    },
+    {
+      "id": "3",
+      "name": "FireFly",
+      "price": 3000,
+      "image": "https://i.pinimg.com/736x/cc/84/08/cc8408c75fa488596719576faa9f4ba0.jpg"
+    },
+    {
+      "id": "6fab",
+      "name": "herta",
+      "price": 10000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfEjST-CAUAnKO-umVnEwemsX_MSaryPQSw&s"
+    }
+  ]
+}

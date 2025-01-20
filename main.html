@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Mis Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">❤️❤️❤️ AluraGeek</h1>
+    </header>
+
+    <main class="main">
+        <section class="product-list">
+            <h2 class="product-list__title">Mis Productos:</h2>
+            <div class="product-list__container">
+                <!-- Aquí se cargarán los productos dinámicamente -->
+            </div>
+        </section>
+
+        <section class="add-product">
+            <h2 class="add-product__title">Agregar Producto:</h2>
+            <form class="add-product__form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Nombre..." required>
+
+                <label for="price">Precio:</label>
+                <input type="number" id="price" name="price" placeholder="Precio..." required>
+
+                <label for="image">Imagen:</label>
+                <input type="url" id="image" name="image" placeholder="URL de la imagen..." required>
+
+                <div class="form__buttons">
+                    <button type="submit" class="button button--submit">Enviar</button>
+                    <button type="reset" class="button button--reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">❤️❤️❤️ AluraGeek | Desarrollado por Juan Sebastian Silva - Enero 2025</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
